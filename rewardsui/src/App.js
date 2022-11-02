@@ -8,7 +8,7 @@ import { getAllTransactions } from './services/rewardsService'
 function App() {
 
   //get 3months priordate and current date 
-
+    //to check github verification
   var currDate = new Date().toISOString().slice(0,10);
   var previousDate = new Date(currDate);
   previousDate.setMonth(previousDate.getMonth() -3);
